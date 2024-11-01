@@ -15,7 +15,7 @@ async function bootstrap() {
   .setTitle('API Rest SIS257')
   .setDescription('API Rest de la materia Desarrollo de App Int/Internet II')
   .setVersion('1.0')
-  .addTag('interpretes')
+  //.addTag('interpretes')
   .build();
 const document = SwaggerModule.createDocument(app, config);
 SwaggerModule.setup('apidoc', app, document);
